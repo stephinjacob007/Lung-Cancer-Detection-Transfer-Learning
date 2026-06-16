@@ -141,6 +141,13 @@ Gradient-weighted Class Activation Mapping (Grad-CAM) provides visual explanatio
 
 ![Random Predictions](Results/Prediction_With_GRAD-CAM.png)
 
+<img width="1197" height="657" alt="Grad-CAM_Prediction2" src="https://github.com/user-attachments/assets/fe8b5520-5329-48c0-8daf-d0d2bb24ad05" />
+
+<img width="1188" height="673" alt="Grad-CAM_Prediction3" src="https://github.com/user-attachments/assets/3381a3bd-206b-47f1-b900-d902ac3aa83c" />
+
+<img width="1181" height="653" alt="Grad-CAM_Prediction4" src="https://github.com/user-attachments/assets/75af0d12-b6fc-47ac-a998-900bc886c597" />
+
+
 *Random test samples with actual labels, predictions, and confidence scores*
 
 The Grad-CAM visualizations show that the model focuses on relevant anatomical regions (lung nodules, tissue abnormalities) when making predictions, providing interpretability crucial for medical applications.
