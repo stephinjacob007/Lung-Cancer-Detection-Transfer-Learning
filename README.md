@@ -279,7 +279,7 @@ Fine-tuning the MobileNetV2 model improved performance:
 | Validation Accuracy | 86.29% | 86.60% |
 | Test Accuracy | 87.85% | ~88% |
 
-![Fine-tuning Performance](Results/finetuning_performance.png)
+![Fine-tuning Performance](Results/FineTuning_Performance.png)
 
 *Training and validation accuracy/loss curves during fine-tuning*
 
