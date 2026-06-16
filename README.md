@@ -3,7 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.19.0-orange.svg)
 ![Keras](https://img.shields.io/badge/Keras-2.19.0-red.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 ## 📋 Project Overview
 
@@ -25,7 +24,7 @@ The dataset consists of **3,206** lung CT scan images distributed across three c
 
 ### Sample Images
 
-![Sample Images](Results/sample_images.png)
+![Sample Images](Results/Sample_Images.png)
 
 *Sample CT scan images from each class (Benign, Malignant, Normal)*
 
@@ -98,7 +97,7 @@ After initial training with frozen base layers, the best model (MobileNetV2) was
 
 ### Performance Visualization
 
-![Model Comparison](Results/model_comparison.png)
+![Model Comparison](Results/Model_Comparison.png)
 
 *Comparison of accuracy across different CNN architectures*
 
@@ -134,13 +133,13 @@ The model shows exceptional performance in detecting malignant and normal cases,
 
 Gradient-weighted Class Activation Mapping (Grad-CAM) provides visual explanations of the model's decision-making process by highlighting the regions in CT images that most influenced the prediction.
 
-![Grad-CAM Example](Results/gradcam_example.png)
+![Grad-CAM Example](Results/Grad-CAM_Example.png)
 
 *Grad-CAM visualization showing the model's focus regions for lung cancer detection*
 
 ### Random Predictions with Grad-CAM
 
-![Random Predictions](Results/random_predictions.png)
+![Random Predictions](Results/Prediction_With_GRAD-CAM.png)
 
 *Random test samples with actual labels, predictions, and confidence scores*
 
