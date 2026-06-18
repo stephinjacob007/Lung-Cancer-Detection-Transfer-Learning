@@ -14,6 +14,8 @@ The project includes comprehensive exploratory data analysis, model comparison, 
 
 ## 📊 Dataset
 
+Dataset Link: https://www.kaggle.com/datasets/rayhankhan831/lung-cancer-ct-scan-image-for-federated-learning
+
 The dataset consists of **3,206** lung CT scan images distributed across three classes:
 
 | Class | Count | Percentage |
@@ -221,10 +223,13 @@ Lung-Cancer-Detection-Transfer-Learning/
 ├── Lung_Cancer_Detection_CNNs.ipynb   # Main Jupyter notebook
 ├── requirements.txt                    # Python dependencies
 ├── Results/                            # README images
-│   ├── sample_images.png
-│   ├── model_comparison.png
-│   ├── gradcam_example.png
-│   └── random_predictions.png
+|   ├── Confusion-Matrices/             # Confusion matrices of all models
+│   ├── Models/                         # Accuracy and Loss curves of models
+|   ├── Class_Distribution.png
+│   ├── Grad-CAM_Example.png
+│   ├── Model_Comparison.png
+│   ├── Prediction_With_GRAD-CAM.png
+│   └── Sample_Images.png
 |
 └── README.md
 ```
@@ -286,7 +291,7 @@ Fine-tuning the MobileNetV2 model improved performance:
 | Validation Accuracy | 86.29% | 86.60% |
 | Test Accuracy | 87.85% | ~88% |
 
-![Fine-tuning Performance](Results/FineTuning_Performance.png)
+![Fine-tuning Performance](Results/Models/FineTuning_Performance.png)
 
 *Training and validation accuracy/loss curves during fine-tuning*
 
